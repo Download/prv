@@ -1,3 +1,5 @@
+"use strict"
+
 module.exports = () => {
 	const p = new WeakMap()
 	return o => {

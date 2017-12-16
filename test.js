@@ -1,3 +1,5 @@
+"use strict"
+
 const expect = require('chai').expect
 
 const prv = require('./prv')
@@ -61,7 +63,7 @@ describe('prv()', () => {
 			expect(point).to.be.an('object')
 			expect(point.x).to.eq(0)
 			expect(point.y).to.eq(0)
-			point.x = 10
+			expect(() => {point.x = 10}).to.throw
 			expect(point.x).to.eq(0)
 		})
 	})
