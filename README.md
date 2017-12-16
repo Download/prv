@@ -1,11 +1,10 @@
 # prv
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/Download/prv.svg)](https://greenkeeper.io/)
 **Private fields in Javascript**
 
 [![npm](https://img.shields.io/npm/v/prv.svg)](https://npmjs.com/package/prv)
 [![license](https://img.shields.io/npm/l/prv.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![travis](https://img.shields.io/travis/Download/prv.svg)](https://travis-ci.org/Download/prv)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Download/prv.svg)](https://greenkeeper.io/)
 [![greenkeeper](https://img.shields.io/david/Download/prv.svg)](https://greenkeeper.io/)
 ![mind BLOWN](https://img.shields.io/badge/mind-BLOWN-ff69b4.svg)
 
