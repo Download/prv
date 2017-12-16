@@ -10,6 +10,8 @@
 
 This NPM module can be used to associate private data with objects. It stores an associated object with the private data in a [WeakMap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap), keyed on the subject. If the subject is garbage collected, so is the private data.
 
+This module works in Node JS (v4 and up) and all browsers that have [support](https://caniuse.com/#feat=es5) for WeakMap (all modern browsers). 
+
 ## Install
 ```sh
 npm install --save prv
