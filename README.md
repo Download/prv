@@ -19,10 +19,16 @@ npm install --save prv
 
 ### require
 ```js
-const factory = require('prv')
-const prv = factory()
+const createAccessor = require('prv')
+const prv = createAccessor()
 // or, shorthand
-const prv = require('prv')()
+const prv = require('prv')() // <-- note the double braces
+```
+
+### import
+```js
+import createAccessor from 'priv'
+const prv = createAccessor()
 ```
 
 ## Usage
@@ -56,7 +62,7 @@ console.info(point.y) // 0
 point.x = 10
 
 ## Issues
-Add an issue in this project's [issue tracker](https://github.com/download/prv/issues)
+Add an issue in the [issue tracker](https://github.com/download/prv/issues)
 to let me know of any problems you find, or questions you may have.
 
 ## Copyright
