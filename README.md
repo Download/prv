@@ -27,7 +27,7 @@ const prv = require('prv')() // <-- note the double braces
 
 ### import
 ```js
-import createAccessor from 'priv'
+import createAccessor from 'prv'
 const prv = createAccessor()
 ```
 
