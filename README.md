@@ -1,4 +1,6 @@
 # prv
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Download/prv.svg)](https://greenkeeper.io/)
 **Private fields in Javascript**
 
 [![npm](https://img.shields.io/npm/v/prv.svg)](https://npmjs.com/package/prv)
