@@ -60,6 +60,7 @@ console.info(point.y) // 0
 // ignored in 'sloppy' mode
 // throws TypeError in strict mode
 point.x = 10
+```
 
 ## Issues
 Add an issue in the [issue tracker](https://github.com/download/prv/issues)
