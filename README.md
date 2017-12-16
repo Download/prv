@@ -32,18 +32,18 @@ Create an accessor function and use it to associate private data with objects. O
 const prv = require('prv')() // <-- note the double braces
 
 class Point {
-	constructor(x, y) {
-		prv(this).x = x
-		prv(this).y = y
-	}
+  constructor(x, y) {
+    prv(this).x = x
+    prv(this).y = y
+  }
 
-	get x() {
-		return prv(this).x
-	}
+  get x() {
+    return prv(this).x
+  }
 
-	get y() {
-		return prv(this).y
-	}
+  get y() {
+    return prv(this).y
+  }
 }
 
 const point = new Point(0,0)
