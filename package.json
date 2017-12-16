@@ -1,0 +1,26 @@
+{
+  "name": "prv",
+  "version": "0.0.1",
+  "description": "Private fields in Javascript",
+  "main": "prv.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/download/prv.git"
+  },
+  "keywords": [
+    "private"
+  ],
+  "author": "Stijn de Witt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/download/prv/issues"
+  },
+  "homepage": "https://github.com/download/prv#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
