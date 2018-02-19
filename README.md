@@ -41,11 +41,11 @@ you to just copy-paste it into your codebase verbatim:
 
 ```js
 const createAccessor = () => {
-	const p = new WeakMap()
-	return o => {
-		if (! p.has(o)) p.set(o, {})
-		return p.get(o)
-	}
+  const p = new WeakMap()
+  return o => {
+    if (! p.has(o)) p.set(o, {})
+    return p.get(o)
+  }
 }
 ```
 
